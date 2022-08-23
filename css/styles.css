@@ -552,15 +552,15 @@ border-radius: 0px 0px 4px 4px;
 
 .footer-main-list {
     display: flex;
-    
+    justify-content: space-between;
     
 }
 
-.footer-main-item:nth-child(2) {
+/* .footer-main-item:nth-child(2) {
     margin-left: 70px;
     margin-right: 93px;
     
-}
+} */
 
 
 .footer-soc-list {
@@ -633,6 +633,7 @@ border-radius: 0px 0px 4px 4px;
     border-radius: 4px;
     background-color: var(--second-bgcolor);
     color: var(--text-light);
+    padding-left: 16px;
 }
 
 .footer-sub-btn {
